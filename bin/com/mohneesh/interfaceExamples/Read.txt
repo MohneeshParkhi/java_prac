@@ -1,0 +1,35 @@
+Changes in the JAVA version 8/9/10/11
+
+### Version 8 brought two drastic change in definition of interface.
+a) static 
+b) default 
+
+## static and default are two keywords used in the methods definition.
+
+Qus: Why these two keyword used in method definition:
+Ans: 
+   1.  Static:
+        * static keyword is used to give a default definition to methods of interface,
+        can be used with definition and cannot change it.
+        * Used for factory method pattern design to take object of particular type.
+        * Can be used to perform task like database based lyk fetching connection,
+          writing code for utility function.
+        
+        Default keyword:
+        
+        * Can be used with same purpose as discussed above
+        
+      Note: Both keywords are introduced in the java language version 8 to provide key
+            features:
+            
+ Points to remember about interface :
+ 
+ a) abstract, public modifiers are added to java interface method signature.
+ b) abstract, public,  final, static is added to java variable name in interface.
+ c) static and default keywords allows programmer to add method definition within interface.
+ d) default methods in java could be overridden in child class.
+ f) Interfaces follows is-a relationship.
+ g) Supports multiple and hierarchical inheritance using interface.
+ h) Used to achieve abstraction in java.
+    
+    

@@ -1,0 +1,30 @@
+Information about Abstract class:
+
+a) Abstract class is used for achieving the abstraction.
+b) abstract class have following members:a
+  1. Methods : 
+     Access modifiers: public, protected, private.
+     Static and non-static methods.
+     abstract and non abstract methods.
+  2. Variables:
+     
+     Access modifiers: abstract, public, private, protected
+     Keywords: abstract, final, static, non-static are used   
+    
+c) Can implement interfaces, hence support the multiple interfaces.
+d) Can extends the class. Supports overriding.
+
+## Difference between Abstract Class and Interfaces.
+
+a) Abstract class uses abstract keyword, Interface uses interface keyword.
+
+b) Abstract class can have abtract and non abstract methods, while interface have 
+ public abstract methods.
+
+c) member methods in interface has public static final keywords while abstract class
+can have protected, public  access modifiers
+  
+d) Interface, from java 8 , can have static and default methods i.e. their definition
+is provided in interface.
+
+e) Not necessary to override non-abstract methods in child class of abstract class.     

@@ -1,0 +1,14 @@
+This Keyword:
+
+1. this keyword is used to reference current class object.
+2. this keyword is used in reference to various scenerios:
+
+	a) it is used to initialize the instance variable in case paramter values
+	   have same signature.
+	b) It is used to pass the current class object to a mthod.
+	c) Used to invoke a method.
+	d) Used in constructor chaining
+	e) Used to return instance of a class.
+
+	
+	However, this points to current class object .
