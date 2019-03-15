@@ -1,0 +1,130 @@
+// Exception handling in java.
+
+Intoduction: When you run the code, it might show some unexpected behaviour either at compile
+time or run time and to show that unexpected behaviour, jVM might show some information explanaing 
+that why it si coming.
+
+Further, such behaviour terminates the normal execution flow of code.
+
+So it is necessary to handle such errors.
+
+Important Points to understand:
+
+1. Mechanism to handle run time abnormal behaviour of code.
+
+2.  Object is thrown by jvm at run time.
+
+3. It is done to continue the normal execution flow of program.
+
+4.  Throwable is the root class, extended by two sub classes:
+		a) Exception
+		b) Error
+		
+***************************************************************************************		
+		Types of Exception
+***************************************************************************************
+ a) Checked Exception
+ b) Unchecked Exception
+ 
+ Checked Exception: 
+ 	1. Thrown at compile time.
+ 	2. Inherits Throwable class.
+ 	3. Already known by program that these abnormal conditions might occur, so handle them 
+ 	before runnning the code.
+ 	
+ 	Example : SQLException, IOException
+ 	
+ Unchecked Exception: Such exception are occurred at run time due to following reasons:
+ 
+ a) Bad Logic.
+ b) Wrong configuration.
+ c) Class not found. 
+ d) IndexOutOfBoundException.
+ e) ArithmeticException.
+ f) NullPointerException.
+ 
+        			
+ *****************************************************************************************
+ Keywords to know to handle Exceptions at run time:
+ *****************************************************************************************
+ a) try-catch Statements
+ 
+ b) throws 
+ 
+ c) finally
+ 
+ d) throw
+ 
+ ######################################
+ Brief explanation of such exception: 
+ #####################################
+ 
+ 1. try- catch 
+  
+  a) The code that might show some unexcepted behaviour is put into try block.
+  
+  b) It cannot be used alone i.e. either it can be used with catch block or finally block.
+  
+ 2. Catch: 
+ 
+ a) Catch block is used to interrupt the throwable event and print the used full information
+ 
+ explaining the condition and reason of exception.
+   
+ 3. finally block : 
+ 
+ a) Block contains the part of code that programmer want to run always i.e. whether 
+ exception occurs or not.
+ 
+ b) Code executed whether exception is handled or not.
+ 
+ 4. throw: 
+
+ a) It is used to throw an exception explicitly.
+
+ b) Programmer have information regarding the thrown exception.
+ 
+ 5. throws:
+ 
+ a) It is used to declare exception.
+ 
+ b) It doesn't throw an exception, so programmer has to handle the exceptions.
+ 
+ c) It tells the code reader that there might a condition because of which exception can be thrown.
+ 
+ d) Always used with method signatures, but not a part of method signature.
+ 
+ **************************************************************************************
+ Topic to study using coding
+ **************************************************************************************
+  1. Try-catch block 
+  2. Multiple catch block - Hierarchy of catch block.
+  3. Nested Try Blocks.
+  4. Finally Block.
+  5. Throw keyword.
+  6. Exception Propagation.
+  7. Throws exception.
+  8. Throw vs Throws.
+  9. Final, Finally and Finalize.
+  10. Java Exception Handling with method overloading.
+  11. Custom Exception.
+  
+  
+ ****************************
+  Try - Catch
+ ****************************
+   1. Code get executed after handling exception using catch block.
+   2. Either write rest of the code in catch block or afterwards.
+   
+ **************************
+ Mulitple catch block :
+ ************************** 
+  1. At a time one exception will occur and at one time, one ctach block will be exceuted.
+  2. Specific to general Exception.
+  
+  
+  **************************
+  **************************
+  
+ 
+ 
