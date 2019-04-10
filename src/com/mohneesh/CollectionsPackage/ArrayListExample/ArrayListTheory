@@ -1,0 +1,14 @@
+Some points about ArrayList:
+
+1. ArrayList is the collection representation of Array dataStructure.
+2. As Manipulation is costly in terms of time and space complexity, it is also in arrayList collection.
+3. Mainpulation requires shifting of elements.
+4. Not thread safe
+5.  maintain insertion order.
+6. Contain duplicate elements.
+7. Random access duew to index based access.
+
+TimeComplexity to search algorithm :
+
+ a) Best Case : O(1)
+ b) Worst Case : O(n)

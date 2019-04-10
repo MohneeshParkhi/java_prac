@@ -1,0 +1,15 @@
+1. It is part of Java.Util.* package.
+2. Introduced in java 1.2
+3. It contain two methods:
+
+	a) equals()
+	b) compare()
+	
+4.  Programmer can sort any Object on value of Any data member.
+
+5. Basically, compare method implements compareTo() method in case of String.
+
+6. It does not need to implement the Comparator interface while comparable interface 
+   need to be implemented.
+   
+    	
