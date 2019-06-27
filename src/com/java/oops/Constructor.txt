@@ -1,0 +1,21 @@
+Points to remember about JAVA Constructor :
+
+a) Constructor are special methods used to instantiate the Objects.
+b) There can be Private, Protected, Public and Default Constructors.
+c) Private Constructor cannot be Invoked outside the current class.
+d) If return type is added to constructor signature, It get
+converted into  method, does not remain constructor.
+
+e) Constructor can be parameterized, so can be used to initialize the
+value of reference variables in class.
+
+f) constructor can be used to create objects of different classes.
+
+
+Case 1:
+
+If a class extends another class having protected, public type
+constructor, then we have to define explicitly constructor of super
+type.
+
+
